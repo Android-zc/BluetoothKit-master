@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.inuker.bluetooth.library.connect.listener.BleConnectStatusListener;
 import com.inuker.bluetooth.library.connect.response.BleNotifyResponse;
@@ -140,6 +141,7 @@ public class CharacterActivity extends Activity implements View.OnClickListener 
                 break;
             case R.id.notify:
                 ClientManager.getClient().notify(mMac, mService, mCharacter, mNotifyRsp);
+                Toast.makeText(getApplicationContext(),"123",Toast.LENGTH_LONG).show();
                 break;
             case R.id.unnotify:
                 ClientManager.getClient().unnotify(mMac, mService, mCharacter, mUnnotifyRsp);
