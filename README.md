@@ -36,13 +36,6 @@ BluetoothKit---Android Bluetooth Framework
 
 ------
 
-有问题或建议可以给我邮件，到我的博客留言，或者加QQ群
- - Email: dingjikerbo@gmail.com
- - Blog: http://blog.csdn.net/dingjikerbo
- - QQ群: 112408886
- 
-------
-
 # **用法**
 
 1、在Android Studio的build.gradle中，在dependencies里添加一行:
